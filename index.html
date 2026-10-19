@@ -8,34 +8,39 @@
 </head>
 <body>
 
-    <!-- Barra superior -->
-    <nav>
-        <div class="nav-container">
-            <!-- Menú de enlaces con id="navLinks" para el JS -->
-            <ul class="nav-links" id="navLinks">
-                <li id="Inicio"><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contactanos</a></li>
-            </ul>
+    <!-- CONTENEDOR QUE DEJA EL GRIS A LOS LADOS -->
+    <div class="contenedor-pagina">
+        
+        <!-- Barra de navegación -->
+        <nav>
+            <div class="nav-container">
+                <!-- Enlaces con id="navLinks" para el JS -->
+                <ul class="nav-links" id="navLinks">
+                    <li id="Inicio"><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
 
-            <!-- Botón de hamburguesa con id="menuBtn" para el JS -->
-            <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">&#9776;</button>
-        </div>
-    </nav>
+                <!-- Botón hamburguesa con id="menuBtn" para el JS -->
+                <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">&#9776;</button>
+            </div>
+        </nav>
 
-    <!-- Centro gris con imagen -->
-    <main class="centro-contenido">
-        <img src="/images/imagen.JPG" alt="HTML5 Responsive" class="imagen-central">
-    </main>
+        <!-- Centro con la imagen -->
+        <main class="centro-contenido">
+            <img src="/images/imagen.JPG" alt="HTML5 Responsive" class="imagen-central">
+        </main>
 
-    <!-- Footer abajo -->
-    <footer>
-        <p>Elaborado por Alfonso Mendoza</p>
-    </footer>
+        <!-- Footer -->
+        <footer>
+            <p>Elaborado por Alfonso Mendoza</p>
+        </footer>
 
-    <!-- Conexión a tu archivo de JavaScript -->
+    </div>
+
+    <!-- Tu JavaScript interactivo -->
     <script src="script.js"></script>
 </body>
 </html>
